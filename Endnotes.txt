@@ -1,7 +1,7 @@
 
 //scrole snapieee good for layout
 //light house  in inspect use to check efficiency
-
+//aos plugin to add  good animation effect
 
 <!--* ----------------------------------- -->
 <!--* Search Engine Optimization -->
