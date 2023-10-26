@@ -1,0 +1,47 @@
+:root{
+    /* variable in css  */
+    --main-color:white;
+    --supporting-color:black;
+} 
+
+.btn{
+    width: 200px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+.btn:hover{
+    background-color: var(--supporting-color);
+    width: 400px;
+    color: white;
+    cursor: pointer;
+}
+
+.box{
+    width:200px;
+    height: 200px;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    transition:all 0.5s;
+}
+
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.transalate{    
+ width: 100px;
+ height: 100px;
+ margin-top: 30px;
+ border-radius: 50%;
+ background-color: black;
+ color: white;
+ text-align: center;
+ transition:all 0.5s;
+}
+
+.transalate:hover{
+    transform: translateX(500px);
+}
+
